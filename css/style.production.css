@@ -132,9 +132,16 @@ a {
 	}
 }
 
+.projects-item:hover {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 10px 10px 8px #5b5e60;
+	transition-duration: 0.1s;
+}
+
 /* Pseudo states for links */
 a:visited {
-	color: #f1f1f1;
+	color: #000008;
 }
 
 a:hover {
