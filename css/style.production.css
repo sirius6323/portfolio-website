@@ -134,7 +134,7 @@ a {
 
 /* Pseudo states for links */
 a:visited {
-	color: #000008;
+	color: #f1f1f1;
 }
 
 a:hover {
