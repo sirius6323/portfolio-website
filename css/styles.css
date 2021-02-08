@@ -31,8 +31,6 @@ body {
 	color: var(--body-text-color);
 	line-height: 24px;
 	font-size: var(--standard-font-size);
-	scrollbar-width: thin;
-	scrollbar-color: var(--headings-color);
 }
 
 h1 {
@@ -231,13 +229,14 @@ td {
 	margin-right: 40px;
 }
 
-/* About me styling*/
+/* About me styling */
 .hobbies {
 	margin: 0 auto;
 	text-align: center;
 	display: block;
 }
 
+/* SVG image styling */
 #space-boy {
 	margin: 0 auto;
 	text-align: center;
