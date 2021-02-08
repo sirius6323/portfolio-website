@@ -144,16 +144,15 @@ a:visited {
 	color: #000008;
 }
 
-a:hover {
-	color: #ff4136;
-}
-
+a:hover,
 a:focus {
 	color: #ff4136;
 }
 
 .button:hover {
-	color: #ff4136;
+	background-color: #ff4136;
+	opacity: 0.8;
+	color: #eee;
 }
 
 .button:focus {
@@ -182,13 +181,6 @@ a:active {
 	-webkit-transition: 0.8s opacity ease-in-out;
 	-o-transition: 0.8s opacity ease-in-out;
 	transition: 0.8s opacity ease-in-out;
-}
-
-/* Button hover state */
-.button:hover {
-	background-color: #ff4136;
-	opacity: 0.8;
-	color: #eee;
 }
 
 /* Form Styling */
