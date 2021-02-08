@@ -82,45 +82,45 @@
 
 			<p>Please leave your contact information here</p>
 			<!-- User contact form -->
-			<form action="#" method="post" id="contact-from">
-				<div class="form-container">
-					<label class="contact-form" for="contact-first-name"
-						>First Name:</label
-					>
-					<input
-						type="text"
-						name="first-name"
-						id="contact-first-name"
-						required
-					/>
-					<hr />
+			<form action="#" method="post" class="form-container" autocomplete="off">
+				<div class="contact-form">
+					<div class="input-fields">
+						<label class="form-labels" for="form-first-name"></label>
+						<input
+							type="text"
+							name="first-name"
+							id="form-first-name"
+							placeholder="First Name"
+							required
+						/>
 
-					<label class="contact-form" for="contact-last-name">Last Name:</label>
-					<input type="text" name="last-name" id="contact-last-name" required />
-					<hr />
+						<label class="form-labels" for="form-last-name"></label>
+						<input
+							type="text"
+							name="last-name"
+							id="form-last-name"
+							placeholder="Last Name"
+							required
+						/>
 
-					<label class="contact-form" for="contact-telephone">Telephone:</label>
-					<input type="tel" name="telephone" id="contact-telephone" />
-					<hr />
-
-					<label class="contact-from" for="contact-email">Email:</label>
-					<input type="email" name="email" id="contact-email" required />
-					<hr />
-
-					<label class="contact-from" for="contact-message">Message:</label>
-					<textarea
-						name="message"
-						id="contact-message"
-						maxlength="240"
-						required
-					></textarea>
-					<hr />
-					<input
-						type="submit"
-						value="Submit Message"
-						name="message"
-						id="contact-message-submit"
-					/>
+						<label class="form-labels" for="form-email"></label>
+						<input
+							type="email"
+							name="email"
+							id="form-email"
+							placeholder="Email"
+							required
+						/>
+					</div>
+					<div class="message-container">
+						<label class="form-labels" for="form-message"></label>
+						<textarea
+							name="message"
+							id="form-message"
+							placeholder="Message"
+						></textarea>
+						<div class="button">Send</div>
+					</div>
 				</div>
 			</form>
 		</main>
